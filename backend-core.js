@@ -47,7 +47,7 @@ function initDashboard() {
 // Fetch real weather data
 async function fetchWeatherData() {
   try {
-    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=demo&units=metric');
+    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Mumbai&appid=96c3f4ce8a3492188b0d3d46003b6aaf&units=metric');
     if (response.ok) {
       const data = await response.json();
       const temp = Math.round(data.main?.temp || 28);
