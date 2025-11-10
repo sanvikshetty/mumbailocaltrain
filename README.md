@@ -112,4 +112,4 @@ MIT License - feel free to use this project for learning and development.
 
 ---
 
-**Built with ❤️ for Mumbai Local Train Commuters**
+**Built for Mumbai Local Train Commuters**
